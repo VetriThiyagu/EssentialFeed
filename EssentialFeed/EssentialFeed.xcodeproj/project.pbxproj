@@ -17,6 +17,7 @@
 		7C0AF3702C31393C00D52E7D /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0AF36F2C31393C00D52E7D /* RemoteFeedLoader.swift */; };
 		7CCAC3122C350060003CCAA4 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCAC3112C350060003CCAA4 /* HTTPClient.swift */; };
 		7CCAC3142C3500A4003CCAA4 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCAC3132C3500A4003CCAA4 /* FeedItemsMapper.swift */; };
+		7CDB5A4C2C3ADCC300236E3A /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB5A4B2C3ADCC300236E3A /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		7C0AF36F2C31393C00D52E7D /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		7CCAC3112C350060003CCAA4 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		7CCAC3132C3500A4003CCAA4 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		7CDB5A4B2C3ADCC300236E3A /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				7C0AF36C2C2B26ED00D52E7D /* RemoteFeedLoaderTests.swift */,
+				7CDB5A4B2C3ADCC300236E3A /* URLSessionHTTPClientTests.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C0AF36D2C2B26ED00D52E7D /* RemoteFeedLoaderTests.swift in Sources */,
+				7CDB5A4C2C3ADCC300236E3A /* URLSessionHTTPClientTests.swift in Sources */,
 				7C0AF35D2C2B227F00D52E7D /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
