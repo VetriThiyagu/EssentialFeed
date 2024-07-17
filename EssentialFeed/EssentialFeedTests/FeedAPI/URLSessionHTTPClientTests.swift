@@ -10,14 +10,14 @@ import EssentialFeed
 
 class URLSessionHTTPClientTests: XCTestCase {
     
-    override class func setUp() {
-        super.setUp()
+    override func setUp() async throws {
+        try await super.setUp()
         
         URLProtocolStub.startInterceptingRequests()
     }
     
-    override class func tearDown() {
-        super.tearDown()
+    override func tearDown() async throws {
+        try await super.tearDown()
         
         URLProtocolStub.stopInterceptingRequests()
     }
